@@ -1,0 +1,114 @@
+- delete a line
+Ctrl + L
+
+- comment
+Ctrl + K + C
+
+- uncomment
+Ctrl + K + U
+
+- bookmark / remove bookmark
+Ctrl + K + K
+
+- bookmark window (resharper)
+Ctrl + K + W
+
+- expand / collapse
+Ctrl + M + M
+
+- cycle through the open tabs
+Ctrl + Tab
+
+- close the current tab
+Ctrl + F4
+
+- close all the open tabs
+Alt + W + L
+
+- open the navigate dialog
+Ctrl + ,
+
+- full screen view toggle
+Shift + Alt + Enter
+
+
+# find and replace
+find a text in file
+Ctrl + F
+
+and then navigate up and down for the search results
+F3 and Shift-F3
+
+display replace dialog for the found text
+Ctrl + H
+
+replace the current found text
+Alt + R
+
+replace all the current found texts
+Alt + A
+
+find a text in whole project
+Ctrl + Shift + F
+
+# run/debug
+insert breakpoint
+F9
+
+debug
+F5
+
+run
+Ctrl + F5
+
+stop debug
+Shift + F5
+
+step over
+F10
+
+step into
+F11
+
+step out
+Shift + F11
+
+- build
+Ctrl + Shift + B
+
+- move to next error
+F8
+
+- refresh the current page in browser
+Ctrl + R
+
+
+# code snippets
+- constructor
+ctor
+
+- property field
+prop
+propfull
+
+- create a class/interface
+class
+interface
+
+- console writeline
+cw
+
+- implement equals
+equals
+
+- loops
+for
+forr
+foreach
+while
+do
+
+- try 
+try
+tryf
+
