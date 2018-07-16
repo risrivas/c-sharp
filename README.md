@@ -1,2 +1,5 @@
-# c-sharp
-C sharp projects
+# C\#
+C\# projects
+
+### References: 
+* Udemy
