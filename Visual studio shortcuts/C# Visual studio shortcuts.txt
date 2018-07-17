@@ -112,3 +112,17 @@ do
 try
 tryf
 
+# formatting code
+- select all 
+Ctrl + A
+
+- format
+Ctrl + K + F
+
+- productivity power tools
+Ctrl + S
+
+
+### resharper
+
+
