@@ -42,7 +42,6 @@ namespace TypeConversion
             catch (Exception)
             {
                 Console.WriteLine("The str could not be converted to a bool.");
-
             }
         }
     }
