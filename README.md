@@ -1,5 +1,8 @@
 # C\#
-C\# projects
 
-### References: 
-* Udemy
+* Beginner
+* Intermediate
+* Advanced
+* Double your coding speed
+* Unit testing
+* Clean code
