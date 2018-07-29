@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CSharpFundamentals.Math;
+using System;
 using System.Collections.Generic;
 
 namespace CSharpFundamentals
@@ -7,11 +8,25 @@ namespace CSharpFundamentals
     {
         public static void Main(string[] args)
         {
-            var numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
+
+            var john = new Person
+            {
+                FirstName = "John",
+                LastName = "Smith"
+            };
+
+            john.Introduce();
+
+            var calculator = new Calculator();
+            Console.WriteLine(calculator.Add(3, 6));
+
+
+
+            /*var numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
             var smallests = GetSmallests(numbers, 3);
 
             foreach (var number in smallests)
-                Console.WriteLine(number);
+                Console.WriteLine(number);*/
         }
 
         public static List<int> GetSmallests(List<int> list, int count)
