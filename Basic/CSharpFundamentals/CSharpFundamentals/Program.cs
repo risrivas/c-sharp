@@ -32,8 +32,25 @@ namespace CSharpFundamentals
             Console.WriteLine(flags[1]);
             Console.WriteLine(flags[2]);
 
-            var names = new string[3] { "Harry", "Mick", "Lucas" };
 
+            //            int number;
+            var firstName = "Mosh";
+            var lastName = "Hamedani";
+            //            String lastName = "Hamedani";
+            //            string myName = "Mosh";
+
+            var fullName = firstName + " " + lastName;
+            var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
+
+            var names = new string[3] { "Harry", "Mick", "Lucas" };
+            var formattedNames = string.Join(",", names);
+            Console.WriteLine(formattedNames);
+
+            var text = @"Hi John
+        Look into following paths
+c:\users\rishi\";
+
+            Console.WriteLine(text);
 
             /*var numbers = new List<int> { 1, 2, 3, 4, 5, 6 };
             var smallests = GetSmallests(numbers, 3);
