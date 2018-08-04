@@ -40,7 +40,7 @@ namespace CSharpFundamentals
             //            string myName = "Mosh";
 
             var fullName = firstName + " " + lastName;
-            var myFullName = string.Format("My name is {0} {1}", firstName, lastName);
+            var myFullName = $"My name is {firstName} {lastName}";
 
             var names = new string[3] { "Harry", "Mick", "Lucas" };
             var formattedNames = string.Join(",", names);
