@@ -21,6 +21,34 @@ namespace Iterations
                     Console.WriteLine(i);
                 }
             }
+
+            var name = "John Smith";
+            foreach (var c in name)
+            {
+                Console.WriteLine(c);
+            }
+
+            var numbers = new int[] { 1, 2, 3, 4, 5 };
+            foreach (var i in numbers)
+            {
+                Console.WriteLine(i);
+            }
+
+            while (true)
+            {
+                Console.Write("Type your name: ");
+                var input = Console.ReadLine();
+                if (!String.IsNullOrWhiteSpace(input))
+                {
+                    Console.WriteLine("@Echo: " + input);
+                    continue;
+                }
+                else
+                {
+                    break;
+                }
+
+            }
         }
     }
 }
