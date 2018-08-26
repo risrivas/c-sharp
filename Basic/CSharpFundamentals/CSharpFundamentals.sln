@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumbers", "RandomNumb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises2", "Exercises2\Exercises2.csproj", "{0109A859-0D66-4263-B156-E8D5FB23E457}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysDemo", "ArraysDemo\ArraysDemo.csproj", "{0DB98AA5-39B8-4BE1-A4D1-58BA6AA36C88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{0109A859-0D66-4263-B156-E8D5FB23E457}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0109A859-0D66-4263-B156-E8D5FB23E457}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0109A859-0D66-4263-B156-E8D5FB23E457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB98AA5-39B8-4BE1-A4D1-58BA6AA36C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB98AA5-39B8-4BE1-A4D1-58BA6AA36C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB98AA5-39B8-4BE1-A4D1-58BA6AA36C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB98AA5-39B8-4BE1-A4D1-58BA6AA36C88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -53,11 +53,11 @@ namespace Exercises2
             Console.Write("enter a number: ");
             var input = Convert.ToInt32(Console.ReadLine());
             int number = input;
-            while (input >= 1)
+            while (number >= 1)
             {
-                fact *= input--;
+                fact *= number--;
             }
-            Console.WriteLine($"{number}! = {fact}");
+            Console.WriteLine($"{input}! = {fact}");
 
         }
 
