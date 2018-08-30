@@ -7,7 +7,18 @@ namespace Exercises3
     {
         static void Main(string[] args)
         {
-            Exercise3_1();
+            // Exercise3_1();
+            Exercise3_2();
+        }
+
+        static void Exercise3_2()
+        {
+            Console.Write("enter name: ");
+            string input = Console.ReadLine();
+            var ca = input.ToCharArray();
+            Array.Reverse(ca);
+            string reverse = new string(ca);
+            Console.WriteLine("reversed name: {0}", reverse);
         }
 
         static void Exercise3_1()
