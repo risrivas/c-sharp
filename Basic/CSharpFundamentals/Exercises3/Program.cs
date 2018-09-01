@@ -8,9 +8,49 @@ namespace Exercises3
         static void Main(string[] args)
         {
             // Exercise3_1();
-            Exercise3_2();
+            // Exercise3_2();
+            Exercise3_3();
         }
 
+        static void Exercise3_3()
+        {
+            var isUnique = false;
+            while (!isUnique)
+            {
+                Console.Write("enter 5 unique numbers separated by space: ");
+                string input = Console.ReadLine();
+                var numbers = input.Split(" ".ToCharArray());
+                var list = new List<int>();
+
+                foreach (var number in numbers)
+                {
+                    var num = Convert.ToInt32(number);
+                    if (list.Contains(num))
+                    {
+                        isUnique = false;
+                        Console.WriteLine("you entered duplicate number {0}, please try again", num);
+                        break;
+                    }
+                    else
+                    {
+                        isUnique = true;
+                        list.Add(num);
+                    }
+                }
+
+                if (isUnique)
+                {
+                    list.Sort();
+                    Console.Write("sorted input list: ");
+                    foreach (var n in list)
+                    {
+                        Console.Write("{0} ", n);
+                    }
+                    Console.WriteLine();
+                }
+            }
+
+        }
         static void Exercise3_2()
         {
             Console.Write("enter name: ");
