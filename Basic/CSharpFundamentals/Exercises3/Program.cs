@@ -9,7 +9,29 @@ namespace Exercises3
         {
             // Exercise3_1();
             // Exercise3_2();
-            Exercise3_3();
+            // Exercise3_3();
+            Exercise3_4();
+        }
+
+        static void Exercise3_4()
+        {
+            var set = new HashSet<string>();
+            while (true)
+            {
+                Console.Write("enter a number or type \"Quit\" to quit: ");
+                string input = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(input)) continue;
+                else if (input.Equals("Quit")) break;
+                else
+                {
+                    set.Add(input);
+                }
+            }
+            foreach (var num in set)
+            {
+                Console.Write("{0} ", num);
+            }
+            Console.WriteLine();
         }
 
         static void Exercise3_3()
