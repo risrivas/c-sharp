@@ -10,7 +10,47 @@ namespace Exercises3
             // Exercise3_1();
             // Exercise3_2();
             // Exercise3_3();
-            Exercise3_4();
+            // Exercise3_4();
+            Exercise3_5();
+        }
+
+        static void Exercise3_5()
+        {
+            while (true)
+            {
+                Console.Write("enter a list of 5 comma separated numbers: ");
+                var input = Console.ReadLine();
+                if (string.IsNullOrEmpty(input))
+                {
+                    Console.WriteLine("Invalid list - please retry");
+                    continue;
+                }
+                else
+                {
+                    var numbers = input.Split(',');
+                    var list = new List<int>();
+                    foreach (var num in numbers)
+                    {
+                        list.Add(Convert.ToInt32(num));
+                    }
+                    if (list.Count != 5)
+                    {
+                        Console.WriteLine("Invalid list - please retry");
+                        continue;
+                    }
+                    else
+                    {
+                        list.Sort();
+                        for (var i = 0; i < 3; i++)
+                        {
+                            Console.Write("{0} ", list[i]);
+                        }
+                        Console.WriteLine();
+                        break;
+                    }
+
+                }
+            }
         }
 
         static void Exercise3_4()
