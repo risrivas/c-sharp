@@ -6,8 +6,26 @@ namespace Exercises4
     {
         static void Main(string[] args)
         {
-            // Exercise4_1();
-            Exercise4_2();
+            //Exercise4_1();
+            //Exercise4_2();
+            Exercise4_3();
+        }
+
+        static void Exercise4_3()
+        {
+            Console.Write("enter a time value in the 24-hour format (e.g. 19:00) - ");
+            var input = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(input))
+            {
+                var time = input.Split(':');
+
+                if (Exercises4Util.IsValidTime(time))
+                {
+                    Console.WriteLine("Ok");
+                    return;
+                }
+            }
+            Console.WriteLine("Invalid time");
         }
 
         static void Exercise4_2()

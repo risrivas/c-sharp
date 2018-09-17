@@ -36,5 +36,19 @@ namespace Exercises4
 
             return false;
         }
+
+        public static bool IsValidTime(string[] time)
+        {
+            if (time.Length == 2)
+            {
+                var hours = Convert.ToInt32(time[0]);
+                var minutes = Convert.ToInt32(time[1]);
+                if ((hours >= 0 && hours <= 23) && (minutes >= 0 && minutes <= 59))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
