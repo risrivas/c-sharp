@@ -8,7 +8,33 @@ namespace Exercises4
         {
             //Exercise4_1();
             //Exercise4_2();
-            Exercise4_3();
+            //Exercise4_3();
+            //Exercise4_4();
+            Exercise4_5();
+        }
+
+        static void Exercise4_5()
+        {
+            Console.Write("enter a word: ");
+            var input = Console.ReadLine();
+
+            if (!string.IsNullOrWhiteSpace(input))
+            {
+                var word = input.ToLower();
+                Console.WriteLine(Exercises4Util.CountNumberOfVowels(word));
+            }
+        }
+
+        static void Exercise4_4()
+        {
+            Console.Write("enter few words separated by space: ");
+            var input = Console.ReadLine();
+
+            if (!string.IsNullOrWhiteSpace(input))
+            {
+                var words = input.ToLower().Split(' ');
+                Console.WriteLine(Exercises4Util.ConvertToPascalCase(words));
+            }
         }
 
         static void Exercise4_3()

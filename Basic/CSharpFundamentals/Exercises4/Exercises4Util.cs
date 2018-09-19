@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Exercises4
 {
@@ -49,6 +51,38 @@ namespace Exercises4
                 }
             }
             return false;
+        }
+
+        public static string ConvertToPascalCase(string[] words)
+        {
+            var builder = new StringBuilder();
+            foreach (var word in words)
+            {
+                builder.Append(word.First().ToString().ToUpper() + word.Substring(1));
+            }
+
+            return builder.ToString();
+        }
+
+        public static int CountNumberOfVowels(string word)
+        {
+            var vowels = new HashSet<Char>();
+            vowels.Add('a');
+            vowels.Add('e');
+            vowels.Add('i');
+            vowels.Add('o');
+            vowels.Add('u');
+
+            var count = 0;
+            foreach (var input in word.ToCharArray())
+            {
+                if (vowels.Contains(input))
+                {
+                    count++;
+                }
+            }
+
+            return count;
         }
     }
 }
