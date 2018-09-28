@@ -10,7 +10,7 @@ namespace FileDemo
             File.Copy(@"C:\Users\rishi\Desktop\fb\IMG_0615.jpg", @"C:\Users\rishi\Desktop\IMG_0615.jpg", true);
 
             var path = @"C:\Users\rishi\Desktop\IMG_0615.jpg";
-            // File.Delete(path);
+            File.Delete(path);
             if (File.Exists(path))
             {
                 //...
