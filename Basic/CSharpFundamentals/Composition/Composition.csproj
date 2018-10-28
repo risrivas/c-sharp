@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{732C7EE1-5730-445F-BD4C-43D5F181CDEE}</ProjectGuid>
+    <ProjectGuid>{051917AF-DCD9-4376-8934-BB09011E73D7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Exercises6</RootNamespace>
-    <AssemblyName>Exercises6</AssemblyName>
+    <RootNamespace>Composition</RootNamespace>
+    <AssemblyName>Composition</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Post.cs" />
+    <Compile Include="DbMigrator.cs" />
+    <Compile Include="Installer.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StopWatch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
