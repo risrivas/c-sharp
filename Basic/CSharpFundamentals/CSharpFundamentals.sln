@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing", "Boxing\Boxing.csproj", "{4D59DAB9-EAB0-4655-BEB2-AC5B1585C079}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises7", "Exercises7\Exercises7.csproj", "{A43F8EDD-416A-487F-AE3B-1C84A9CCC4EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{13987A51-E6F1-49B4-8679-B973F4B02B1B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -197,6 +201,14 @@ Global
 		{4D59DAB9-EAB0-4655-BEB2-AC5B1585C079}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D59DAB9-EAB0-4655-BEB2-AC5B1585C079}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D59DAB9-EAB0-4655-BEB2-AC5B1585C079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43F8EDD-416A-487F-AE3B-1C84A9CCC4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43F8EDD-416A-487F-AE3B-1C84A9CCC4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43F8EDD-416A-487F-AE3B-1C84A9CCC4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43F8EDD-416A-487F-AE3B-1C84A9CCC4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13987A51-E6F1-49B4-8679-B973F4B02B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13987A51-E6F1-49B4-8679-B973F4B02B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13987A51-E6F1-49B4-8679-B973F4B02B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13987A51-E6F1-49B4-8679-B973F4B02B1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
